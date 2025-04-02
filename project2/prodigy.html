@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="icon" type="image" href="icon.png">
+
+    <!-- for adding the stylesheet -->
+    <link rel="stylesheet" href="prodigy.css">
+</head>
+<body>
+    <!-- Container which contains the stopwatch -->
+    <div id="container">
+
+        <!-- for heading of the project -->
+        <div id="text">
+            <h2>STOPWATCH</h2>
+        </div>
+
+        <!-- container which contains all the items present in the stopwatch -->
+        <div id="clockContainer">
+
+            <!-- to display the time -->
+            <div id="timer">
+                <h3 id="timerText">00:00:00:000</h3>
+            </div>
+
+            <!-- buttons for different functionalities -->
+            <div id="buttons">
+
+                <!-- Stop button with onclick function to stop the stopwatch -->
+                <button class="buttonText" id="stopButton" onclick="stopTimer()"> STOP</button>
+
+                <!-- Start button with onclick function to start the stopwatch -->
+                <button class="buttonText" id="startButton" onclick="startTimer()">START</button>
+
+                <!-- Reset button with onclick function to reset the stopwatch -->
+                <button class="buttonText" id="resetButton" onclick="resetTimer()">RESET</button>
+
+            </div>
+        </div>
+    </div>
+    <!-- for adding JavaScript to run the Stopwatch-->
+    <script src="prodigy.js"></script>
+</body>
+</html>

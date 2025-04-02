@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    background-image: linear-gradient(to right, rgb(225, 48, 148), rgb(45, 118, 221));
+}
+
+/* to style the main clock container */
+#clockContainer{
+    border: 5px solid black;
+    border-style: double;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    margin: auto;
+    justify-content: space-around;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+/* to center-align the items */
+#container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    padding-bottom: 173px;
+}
+
+/* for timer text and its border */
+#timerText {
+    border: 2px solid black;
+    border-style: dotted;
+    border-radius: 10px;
+    width: 247px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* for stlyling the text (STOPWATCH) */
+#text{
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: -2%;
+    text-shadow: 2px 2px 8px #050505;
+}
+/* for styling the start, stop and reset buttons */
+#buttons {
+    height: 15%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -60px;
+}
+/* for styling the start button and adding text-shadow */
+#startButton {
+    border: 2px solid green;
+    width: 80px;
+    border-radius: 15px;
+    color: green;
+    text-shadow: 2px 2px 8px #1e8431;
+}
+
+/* while hover on start button, the button's bacground color will change */
+#startButton:hover {
+    background-color: green;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* for styling the stop button and adding text-shadow */
+#stopButton {
+    border: 2px solid red;
+    width: 80px;
+    border-radius: 15px;
+    color: red;
+    text-shadow: 2px 2px 8px #f12929;
+}
+
+/* while hover on stop button, the button's bacground color will change */
+#stopButton:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* for styling the reset button and adding text-shadow */
+#resetButton {
+    border: 2px solid rgb(49, 151, 191);
+    width: 80px;
+    border-radius: 15px;
+    color: rgb(49, 151, 191);
+    text-shadow: 2px 2px 8px #3b98b2;
+}
+
+/* while hover on reset button, the button's bacground color will change */
+#resetButton:hover {
+    background-color: rgb(49, 151, 191);
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* for styling the button's text */
+.buttonText {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
